@@ -8,11 +8,11 @@
 # 1. 检查启动方式并设置下载链接
 if [ -d /sys/firmware/efi ]; then
     # UEFI 启动
-    IMG_URL="https://github.com/Jungle4869/yuze/releases/download/Ros7.20.6/chr-7.20.6.img"
+    IMG_URL="https://github.com/Toby1GO/yuze/releases/download/Ros7.20.6/chr-7.20.6.img"
     echo "检测到 UEFI 启动方式，准备下载 UEFI 镜像包"
 else
     # BIOS 启动
-    IMG_URL="https://github.com/Jungle4869/yuze/releases/download/Ros7.20.6/chr-7.20.6.img"
+    IMG_URL="https://github.com/Toby1GO/yuze/releases/download/Ros7.20.6/chr-7.20.6.img"
     echo "检测到 BIOS 启动方式，准备下载 legacy 镜像包"
 fi
 
